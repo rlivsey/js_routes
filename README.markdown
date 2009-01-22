@@ -17,4 +17,5 @@ Javascript:
     message_url(message_id, {format: 'js'})
 
 These are built on the fly, to cache them for production run the task:
+
     $rake js_routes:cache
